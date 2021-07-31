@@ -1,27 +1,38 @@
 {
-    "name": "remark-bbcode-steam",
-    "version": "1.0.0",
-    "description": "",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "scripts": {
-        "test": "sane \"npx mocha\" . --wait=0.1 --ignored=node_modules"
-    },
-    "keywords": [],
-    "type": "module",
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "@types/chai": "^4.2.21",
-        "remark": "^13.0.0",
-        "remark-gfm": "^1.0.0",
-        "unified": "^10.0.1"
-    },
-    "devDependencies": {
-        "@types/mocha": "^9.0.0",
-        "chai": "^4.3.4",
-        "esm": "^3.2.25",
-        "mocha": "^9.0.2",
-        "ts-node": "^10.1.0"
-    }
+  "name": "@fluffy-mods/remark-bbcode-steam",
+  "version": "1.0.0",
+  "description": "unified.js remark to steam flavoured bbcode compiler",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "sane \"npx mocha\" . --wait=0.1 --ignored=node_modules"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "Karel Kroeze <karel.kroeze@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chai": "^4.2.21",
+    "remark": "^13.0.0",
+    "remark-gfm": "^1.0.0",
+    "unified": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.4",
+    "esm": "^3.2.25",
+    "mocha": "^9.0.2",
+    "ts-node": "^10.1.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluffy-mods/remark-bbcode-steam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fluffy-mods/remark-bbcode-steam/issues"
+  },
+  "homepage": "https://github.com/fluffy-mods/remark-bbcode-steam#readme"
 }
